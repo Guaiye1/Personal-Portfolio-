@@ -1,0 +1,123 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: grey;
+  background-image: url(background.jpg);
+  background-size: cover; /* Adjust as needed */
+  background-position: center; /* Adjust as needed */
+  background-repeat: no-repeat; /* Adjust as needed */
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+.logo{
+    width: 20%;
+    height: 20%;
+}
+.hero{
+    position: relative; 
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: auto;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color:  black;
+    font-size: bold;
+}
+
+nav ul li a:hover{
+    color: lightblue;
+}
+
+/* Add flexbox to the navbars. */
+
+  
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: cyan;
+  }
+  
+  h1 {
+    color: black;
+  }
+  
+  .My_info {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between;
+  
+  }
+  
+  .Contact {
+    border: 2px solid black;
+    padding: 10px;
+    margin-top: 10px;
+    margin-left: 30%;
+    margin-right: 20%;
+    margin-bottom: 10px;
+    border-radius: 25px;
+  }
+  
+  .Contact:hover {
+    box-shadow: 2px 2px yellow;
+    background-color: cyan;
+    color: white;
+  }
+  
+  
+  .IG {
+    margin-top: 10%;
+  }
+  
+
+  
+  img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  #image {
+    width: 200px;
+    height: 250px;
+    border: solid black 10px;
+    border-radius: 25%;
+  }
+  
+  #icon {
+    display: flex;
+    font-size: 25px;
+  }
+  
+  .word {
+    margin-left: 20px;
+  }
+
+  body{
+    background-image: url(background.jpg);
+}
